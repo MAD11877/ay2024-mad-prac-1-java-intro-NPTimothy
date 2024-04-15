@@ -14,13 +14,13 @@ public class Question2
     // double height = in.nextDouble();
 
     Scanner in = new Scanner(System.in);
-    System.out.print("Height: ");
+    // System.out.print("Height: ");
     Double height = in.nextDouble();
       
-    System.out.print("Weight: ");
+    // System.out.print("Weight: ");
     Double weight = in.nextDouble();
 
-    System.out.println("BMI: " + weight / (height * height));
+    System.out.println(weight / (height * height));
     in.close();
   }
 }
