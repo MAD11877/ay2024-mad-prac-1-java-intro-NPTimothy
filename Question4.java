@@ -17,7 +17,20 @@ public class Question4
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
      
+    // Scanner in = new Scanner(System.in);
     Scanner in = new Scanner(System.in);
+    Integer number = in.nextInt();
+      
+    for (int i = number; i > 0; i--) {
+        for (int j = number; j > 0; j--) {
+            System.out.print("*");
+        }
+        System.out.print("\n");
+        number--;
+    }
+
+      
+    in.close();
     
   }
 }
